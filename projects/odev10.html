@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasarım Kodlama</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #25373D;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#25373D;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+        
+ 
+        
+ 
+        .ust .menu ul{
+            display: flex;
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:1.8rem;
+            padding:0 2rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+ 
+        .orta .bolum1{
+            margin-top:20px;
+            border:10px solid #25373D;
+            padding:20px;
+        }
+ 
+        .orta .bolum1 img{
+            display: block;
+            width: 100%;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        }
+ 
+        .alt{
+            margin-top:20px;
+            padding:20px 0;
+            display: flex;
+            gap:20px;
+        }
+        .alt .baglanti{
+            flex-grow: 1;
+        }
+ 
+        .alt .baglanti ul li{
+            border-bottom:dotted 1px #FCB941;
+            margin:5px 0;
+        }
+ 
+        .alt .baglanti a{
+            font-size:1.6rem;
+            text-decoration: none;
+            color:#FCB941;
+        }
+ 
+ 
+        .cizgi{
+            border-top:dotted 1px #FCB941;
+            margin:20px 0;
+        }
+ 
+        .alt-kenar-10{
+            border-bottom:10px solid #FCB941;
+        }
+        
+    </style>
+</head>
+<body>
+ 
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+                <h1>BİZİMLE İLETİŞİME GEÇİN</h1>
+                
+            </div>
+            <div class="menu">
+                
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <center><iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d12024.460984610974!2d28.86090988735648!3d41.110174068647424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d41.1070606!2d28.871330999999998!4m5!1s0x14cab1d841de087b%3A0x1084f8291e0f86b3!2s2560.%20Sk.%20No%3A12%2C%20Cebeci%2C%2034270%20Sultangazi%2F%C4%B0stanbul!3m2!1d41.111196199999995!2d28.8611595!5e0!3m2!1str!2str!4v1685060201715!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>>
+        </div>
+        <div class="bolum2">
+            <div class="kutu">
+                <img src="konum.png" width="100" height="100">
+<h1><div class="text">Adres=Cebeci Mah 2560 sokak no:12 kat 3 </div> </h1>
+
+<img src="telefon.png" width="100" height="100">
+<h1><div class="text">Telefon=0531 087 5664</div> </h1>
+
+<img src="e posta.jpg" width="100" height="100">
+<h1><div class="text">E Posta=çsm@hotmail.com</div> </h1>
+
+           
